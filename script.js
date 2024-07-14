@@ -1,6 +1,6 @@
 
 async function myFunction() {
-    window.open('file/MohideenKajaResume-1.pdf')
+    window.open('file/MohideenKajaResume4.pdf')
 }
 
 $(function () {
