@@ -25,10 +25,6 @@ header {
     background-color: #00008B;
 }
 
-.photo-image {
-    width: 70%;
-}
-
 @media only screen and (min-width: 768px) {
     .main-container {
         display: flex;
@@ -61,3 +57,49 @@ header {
     font-size: 49px;
     color: #fff;
 }
+
+@keyframes buttonHover {
+    from {
+        transform: scale(1);
+        background-color: transparent;
+    }
+    to {
+        transform: scale(1.05);
+        background-color: #007bff;
+    }
+}
+
+.btn-outline-primary:hover {
+    animation: buttonHover 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.text-col {
+    animation: slideIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.photo-image {
+    width: 70%;
+    animation: fadeIn 2s ease-out;
+}
+
+
