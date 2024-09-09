@@ -17,13 +17,13 @@ header {
     backdrop-filter: blur(54px);
 }
 
-.bg-color {
+/* .bg-color {
     background-color: #00008B;
 }
 
 .main-container {
     background-color: #00008B;
-}
+} */
 
 @media only screen and (min-width: 768px) {
     .main-container {
@@ -55,7 +55,7 @@ header {
 
 .icon {
     font-size: 49px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 @keyframes buttonHover {
