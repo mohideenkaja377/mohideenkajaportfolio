@@ -17,6 +17,10 @@ header {
     backdrop-filter: blur(54px);
 }
 
+.progress-bar {
+    background-color: black !important;
+}
+
 /* .bg-color {
     background-color: #00008B;
 }
@@ -53,10 +57,28 @@ header {
     height: 100%;
 }
 
-.icon {
-    font-size: 49px;
-    /* color: #fff; */
+/* Reset default link styles */
+.social-icon {
+    color: black; /* Set the default icon color to black */
+    text-decoration: none; /* Remove the underline from the links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
 }
+
+.social-icon:hover {
+    color: #555; /* Change color on hover to a slightly different shade of black */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Optional: Set the size of icons if needed */
+.bi {
+    font-size: 49px; /* Adjust size as needed */
+}
+
+/* Optional: Add spacing between icons */
+.pl-4 {
+    padding-left: 1rem; /* Adjust padding as needed */
+}
+
 
 @keyframes buttonHover {
     from {
